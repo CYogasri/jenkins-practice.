@@ -1,38 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    #image-container {
-        width: 10cm; /* width of the image container */
-        height: 10cm; /* height of the image container */
-        position: absolute; /* position the container */
-        top: 0; /* align to the top of the viewport */
-        left: 0; /* align to the left of the viewport */
-        border: 1px solid black; /* optional border for visibility */
-        overflow: hidden; /* hide any overflow beyond specified dimensions */
-    }
-    #image-container img {
-        width: 100%; /* make the image fill the container */
-        height: 100%; /* make the image fill the container */
-        object-fit: cover; /* cover the container while maintaining aspect ratio */
-    }
-</style>
+    <title>My Application</title>
 </head>
 <body>
+    <div class="application">
+        <p>Dr. Nukasani Balaji, president of Prakasam District Telugu Desam Party and former chairman of Zilla Praja Parishad, addressed a press conference at the Telugu Desam Party office in Prakasam district. He spoke about the launch of a campaign called 'Sankharavam' by the TDP to counter the alleged anarchy of Jagan Mohan Reddy's government and the YCP leaders.
 
-<div id="image-container">
-    <img src="https://www.google.com/imgres?q=nukasani%20balaji&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D4162075930557892&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnaralokesh%2Fphotos%2Fa.390598597705663%2F4162075930557892%2F%3Ftype%3D3&docid=aMIrZRlVqy3w3M&tbnid=2KIgmeuEkHSCyM&vet=12ahUKEwjPgZ-B4oWHAxVUzjgGHfLvBngQM3oECGYQAA..i&w=1398&h=1595&hcb=2&ved=2ahUKEwjPgZ-B4oWHAxVUzjgGHfLvBngQM3oECGYQAA" alt="Description of your image">
-</div>
-
+https://www.thehansindia.com/andhra-pradesh/prakasam-district-tdp-president-nukasani-balaji-launches-campaign-for-sankharavam-857806</p>
+    </div>
 </body>
 </html>
-#this is code
+#just commiting 
