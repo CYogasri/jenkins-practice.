@@ -1,21 +1,38 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #image-container {
+        width: 10cm; /* width of the image container */
+        height: 10cm; /* height of the image container */
+        position: absolute; /* position the container */
+        top: 0; /* align to the top of the viewport */
+        left: 0; /* align to the left of the viewport */
+        border: 1px solid black; /* optional border for visibility */
+        overflow: hidden; /* hide any overflow beyond specified dimensions */
+    }
+    #image-container img {
+        width: 100%; /* make the image fill the container */
+        height: 100%; /* make the image fill the container */
+        object-fit: cover; /* cover the container while maintaining aspect ratio */
+    }
+</style>
 </head>
 <body>
-	<h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">THIS IS APP DEPLOYMENT USING TOMCAT</h1>
-	<h1 style="color: blue; font-size: 40px;" align="center">THIS IS CI/CD</h1>
-	<h1 style="color: green; font-size: 40px;" align="center">THIS IS NEW VERSION</h1>
-	<h1 style="color: pink; font-size: 40px;" align="center">WE ARE SUCCESSFULLY DEPLOYED APPLICATION</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">WE INTEGRATED NEXUS TO JENKINS</h1>
-	
-	
-	
-	
-	
-	
-	
-	
+
+<div id="image-container">
+    <img src="https://www.google.com/imgres?q=nukasani%20balaji&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D4162075930557892&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnaralokesh%2Fphotos%2Fa.390598597705663%2F4162075930557892%2F%3Ftype%3D3&docid=aMIrZRlVqy3w3M&tbnid=2KIgmeuEkHSCyM&vet=12ahUKEwjPgZ-B4oWHAxVUzjgGHfLvBngQM3oECGYQAA..i&w=1398&h=1595&hcb=2&ved=2ahUKEwjPgZ-B4oWHAxVUzjgGHfLvBngQM3oECGYQAA" alt="Description of your image">
+</div>
+
 </body>
 </html>
+#this is code
